@@ -1,0 +1,47 @@
+.customoverlay
+{
+  background-color:rgba(0,0,0,.75);
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:column;
+  -moz-box-orient:vertical;
+  -moz-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  margin:0 auto;
+  min-height:515px;
+  padding:40px 40px 40px;
+  width:100%
+}
+
+.custombg
+{
+  background:url('https://i.imgur.com/ynv9BKl.jpg');
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  height:100vh;
+  position:fixed;
+  background-position:center center;
+  background-repeat:no-repeat
+} 
+
+.custombody
+{
+  height:100vh;
+  overflow-y:auto;
+  overflow-x:hidden;
+  -webkit-overflow-scrolling:touch
+}
